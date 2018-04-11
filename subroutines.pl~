@@ -1,0 +1,33 @@
+
+sub marine {
+    $n += 1;
+    print "Hello, sailor number $n!\n";
+}
+
+sub sum_of_fred_and_barney {
+    print "Hey, you called the sum of fred_of_fred_and_barney subroutine!\n";
+    $fred + $barney; 
+}
+
+sub larger_of_fred_or_barney {
+    if($fred > $barney) {
+	$fred;
+    }
+    else {
+	$barney;
+    }
+}
+
+
+
+&marine;
+&marine;
+
+$fred = "fred";
+$barney = "barney";
+
+&sum_of_fred_and_barney;
+&sum_of_fred_and_barney;
+
+$res = &larger_of_fred_or_barney;
+print $res, "\n";
