@@ -2,7 +2,7 @@ use strict;
 use 5.18.2;
 use Data::Dumper;
 
-my %people = (fred => "flintsone", barney => "rubble", wilma => "flintstone");
+`xmy %people = (fred => "flintsone", barney => "rubble", wilma => "flintstone");
 
 print "Enter the name of a person: ";
 
